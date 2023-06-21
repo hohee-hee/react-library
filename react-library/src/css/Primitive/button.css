@@ -1,0 +1,21 @@
+button {
+  cursor: pointer;
+  background-color: var(--color-white);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1.5rem;
+  border: 0.2rem solid black;
+  box-shadow: 0.1rem 0.2rem 0.2rem 0rem var(--color-gray);
+}
+
+button:hover {
+  background-color: var(--color-black);
+  border: 0.2rem solid white;
+  color: white;
+}
+
+button:active {
+  background-color: var(--color-black);
+  color: white;
+  box-shadow: none;
+}
