@@ -1,3 +1,19 @@
+:root {
+  --color-red: #e73636;
+  --color-orange: #ff6633;
+  --color-yellow: #f3f323;
+  --color-green: #0a7d32;
+  --color-skyblue: #00bfff;
+  --color-blue: #112aed;
+  --color-navy: #1401a2;
+  --color-purple: #7710bc;
+  --color-brown: #451302;
+  --color-gray: #5c5c5c;
+  --color-black: #040404;
+  --color-white: #ffffff;
+}
+
+
 html,
 body,
 div,

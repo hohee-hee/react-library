@@ -4,15 +4,16 @@ import MyInput from "./primitive/MyInput";
 function App() {
   return (
     <>
-      <MyButton
-        value="버튼"
-        color="black"
-        background="#ffffff"
-        callback={() => {
-          alert("gut");
-        }}
-      ></MyButton>
-      <MyButton></MyButton>
+      <MyButton className="danger"></MyButton>
+      <MyButton className="warning"></MyButton>
+      <MyButton className="primary"></MyButton>
+      <MyButton className="secondary"></MyButton>
+      <MyButton className="success"></MyButton>
+      <MyButton className="info"></MyButton>
+      <MyButton className="light"></MyButton>
+      <MyButton className="neutral"></MyButton>
+      <MyButton className="highlight"></MyButton>
+      <MyButton className="neutral2"></MyButton>
       <br></br>
       <MyInput
         type="text"
